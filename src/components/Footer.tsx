@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
@@ -8,9 +9,9 @@ export default function Footer() {
                 
                 {/* Social Links */}
                 <div className="flex justify-center gap-6 mt-4">
-                    <a href="/support" className="text-gray-400 hover:text-white transition">
+                    <Link href="/support" className="text-gray-400 hover:text-white transition">
                         Support
-                    </a>
+                    </Link>
 
                     <a
                         href="https://github.com/raylac"
