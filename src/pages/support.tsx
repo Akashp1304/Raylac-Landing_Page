@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
-import { FaEnvelope, FaTelegramPlane, FaDiscord, FaQuestionCircle } from "react-icons/fa";
+import { FaEnvelope, FaTelegramPlane } from "react-icons/fa";
 
 export default function Support() {
   const { t } = useTranslation();
@@ -25,7 +25,7 @@ export default function Support() {
             </a>
           </div>
 
-       
+
           <div className="mb-6">
             <h2 className="text-lg font-semibold">{t("telegram")}</h2>
             <a
@@ -38,11 +38,11 @@ export default function Support() {
             </a>
           </div>
 
-         
-         
+
+
         </div>
 
-        
+
         <div className="mt-6">
           <a
             href="https://t.me/raylac_support"
